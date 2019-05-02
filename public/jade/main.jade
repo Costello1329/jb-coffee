@@ -1,0 +1,308 @@
+html(lang = "ru")
+	head
+		meta(charset = "UTF-8")
+		link(rel = "stylesheet", href = "/public/css/main.css")
+		link(href = "https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel = "stylesheet")
+		link(href="https://fonts.googleapis.com/css?family=Comfortaa:300,400&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet")
+		link(href = "https://fonts.googleapis.com/css?family=Comfortaa" rel = "stylesheet")
+		script(src = "/public/Libraries/jQuery.js")
+		script.
+			var sliderImages = !{JSON.stringify(sliderImages)};
+		script(src = "/public/js/main.js")
+		title Joe Black cafe
+		meta(HTTP-EQUIV = "Content-Language" content = "ru")
+		meta(HTTP-EQUIV = "Content-Script-Type" content = "text/javascript")
+		meta(HTTP-EQUIV = "Content-Style-Type" content = "text/css")
+		meta(HTTP-EQUIV = "Content-Type" content = "text/html; charset = utf-8")
+		meta(name = "Reply-to" Content = "EMAIL!")
+		meta(name = "Copyright" content = "Joe Black Coffee")
+		meta(name = "Description" content = "Description here")
+		meta(name = "Keywords" lang = "ru" content = "Кофе, Кофейня, метро Белорусская, Белая площадь, ")
+		meta(name = "Keywords" lang = "en" content = "key, words, here")
+		meta(name = "Revisit" content = "7")
+		meta(name = "Robots" content = "all")
+	body
+		script(type="text/javascript").
+			(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter45978063 = new Ya.Metrika({ id:45978063, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");
+		noscript
+			div
+				img(src="https://mc.yandex.ru/watch/45978063" style="position:absolute; left:-9999px;" alt="")		
+		if night == false
+			header
+				h1 Joe Black
+				h2 3-я улица Ямского поля, д 9, к 1
+				h3 5 минут от м. Белорусская
+				nav
+					div#navMenu
+						p Меню
+					div#navAbout
+						p О нас
+					div#navContact
+						p Контакты
+		else
+			header.nightMode
+				img(src = "/public/pictures/Logo-Night.png")
+				h2 3-я улица Ямского поля, д 9, к 1
+				h3 5 минут от м. Белорусская
+				nav
+					div#navMenu
+						p Меню
+					div#navAbout
+						p О нас
+					div#navContact
+						p Контакты
+		main
+		#Menu
+			#menuHeader
+				img(src = "/public/icons/bracket.svg")
+				h2 Menu
+				img(src = "/public/icons/bracket.svg")
+			#menuRows
+				.menuRow
+					table.menuDoubleSmall
+						tbody
+							tr
+								td Черный кофе
+								td
+							tr
+								td Эспрессо
+								td 120
+							tr
+								td Американо
+								td 140
+					table.menuTripple
+						tbody
+							tr
+								td Какао
+								td 250 мл
+								td 350 мл
+							tr
+								td Какао
+								td 220
+								td 260
+							tr
+								td Какао с соленой карамелью
+								td 240
+								td 280
+							tr
+								td Какао с маршмеллоу
+								td 240
+								td 280
+				.menuRow
+					table.menuTripple
+						tbody
+							tr
+								td Кофе с молоком
+								td 250 мл
+								td 350 мл
+							tr
+								td Капучино
+								td 170
+								td 220
+							tr
+								td Флэт уайт
+								td 220
+								td -
+					table.menuDoubleBig
+						tbody
+							tr
+								td Чай
+								td 350 мл
+							tr
+								td Ассам
+								td 160
+							tr
+								td Эрл грей
+								td 160
+							tr
+								td Сенча
+								td 160
+							tr
+								td Улун
+								td 160
+				.menuRow
+					table.menuDoubleBig
+						tbody
+							tr
+								td Кофейные напитки
+								td 350 мл
+							tr
+								td Латте карамель
+								td 240
+							tr
+								td Латте пряный
+								td 260
+							tr
+								td Раф цитрусовый
+								td 260
+							tr
+								td Раф кокосовый
+								td 240
+							tr
+								td Раф ванильный
+								td 240
+							tr
+								td Раф OREO
+								td 260
+					table.menuDoubleBig
+						tbody
+							tr
+								td Фруктовый чай
+								td 400 мл
+							tr
+								td Чай с малиной и имбирем
+								td 260
+							tr
+								td Чай с медом, чебрецом и грушей
+								td 260
+							tr
+								td Чай с облепихой и имбирем
+								td 260
+							tr
+								td Чай латте
+								td 280
+				.menuRow
+					table.menuDoubleBig
+						tbody
+							tr
+								td Лимонады
+								td 
+							tr
+								td Классический
+								td 150
+							tr
+								td Тархун
+								td 150
+							tr
+								td Клубника базилик
+								td 150
+							tr
+								td Вишня тимьян
+								td 150
+					table.menuDoubleSmall
+						tbody
+							tr
+								td Сезонные напитки
+								td
+							tr
+								td Бамбл
+								td 270
+							tr
+								td Фундук
+								td 260
+							tr
+								td Фраппе
+								td 220
+							tr
+								td Айс латте
+								td 220
+							tr
+								td холодный чай
+								td 170
+				.menuRow
+					table.menuDoubleBig
+						tbody
+							tr
+								td Завтраки <sup>*</sup>
+								td
+							tr
+								td Сырники
+							tr
+								td Блинчики + кофе
+								td 190
+							tr
+								td Выпечка
+							tr
+								td Каша
+					table.menuDoubleBig
+						tbody
+							tr
+								td Фреши / Смузи
+								td
+							tr
+								td Апельсиновый
+								td 200
+							tr
+								td Грейпфрутовый
+								td 220
+							tr
+								td Смузи
+								td 250
+							tr
+								td Смузи Боул
+								td 350
+		#Splitter
+			figure#triangle
+			div
+				div#splitterLeft
+					br
+					p *
+					p 8.30 до 11.00 по будням <br> 11.00 до 15.00 по выходным <br>
+					p Кофе на выбор: Эспрессо, Американо, Капучино, Латте, Флэт Уайт, Чай
+				div#splitterRight
+					br
+					p **
+					p Любой сироп и топинг на ваш выбор + 30 <br>
+					p Любой напиток на соевом молоке + 40
+		#Slider
+			div#sliderLoader
+				img(src = "/public/icons/loader.svg")
+			div(style = "display: none")#sliderArrows
+				svg#control-arrow-1
+					g(transform = "translate(5 5)")
+						line#arrow(x1="-1.9" y1="41.9" x2="40" y2="0")
+						line#arrow(x1="-1.9" y1="38.9" x2="40" y2="80")
+				svg#control-arrow-2
+					g(transform = "translate(5 5)")
+						line#arrow(x1="-1.9" y1="41.9" x2="40" y2="0")
+						line#arrow(x1="-1.9" y1="38.9" x2="40" y2="80")
+			div(style = "display: none")#sliderCircles
+				each image in sliderImages
+					div(id = "control-circle-#{image.number}")
+			div(style = "display: none")#sliderImages
+				each image in sliderImages
+					div(id = "slider-image-#{image.number}")
+		#About
+			h2 О Нас
+			p Мы ждём тех, кто хочет отдохнуть в стильном, уютном месте с панорамными окнами и вкусным запахом кофе. В каждой чашке, мы дарим радость. День за днём готовим незабываемый, ароматный эспрессо, открываем новые вкусы и десерты, пишем цветной латте-арт на капучино. Всё это, потому что мы хотим готовить вам вкусный кофе и смотреть на ваши улыбки.
+			hr
+		iframe#Map(src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2243.6663420968985!2d37.57934323903169!3d55.781666565718986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a1f8591ae6f%3A0x59c36f3b174deb8a!2sJoe+Black+Cafe!5e0!3m2!1sru!2sru!4v1502152643239" frameborder = "0" style = "border: 0")
+		#Contact
+			div#contactLogo
+				h2#logo Joe Black
+				img(src = "/public/icons/logo.svg")
+			div#contactContacts
+				h2 Контакты
+				p +7(499)-394-73-79
+				p info@jbcoffee.ru
+				p 3-я ул. Ямского поля, д.9, к.1
+			div#contactTime
+				h2 Время работы
+				h3 Наша кофейня работает для вас с февраля 2017 года. Приходите к нам!
+				table
+					tbody
+						tr
+							td Понедельник - пятница
+							td 8:00–22:00
+						tr
+							td Суббота
+							td 11:00–20:00
+						tr
+							td Воскресенье
+							td 11:00–20:00
+			nav
+				div(onclick = "location.assign('http://vk.com/jbcoffee')")#twitter
+				div(onclick = "location.assign('http://facebook.com/cafeJoeBlack')")#facebook
+				div(onclick = "location.assign('http://instagram.com/joeblackcoffee/')")#instagram
+		footer
+			p Copyright ©2017 Joe Black Cafe
+			a(href = "http://vk.com/konstantinleladze") Верстка: Леладзе Константин Григорьевич
+		#Subscribe
+			div
+				img(src = "/public/icons/close.svg")#SubscribeCloser
+			h1 Подпишитесь на нас,
+			h2 чтобы быть в курсе всех новинок :-)
+			nav
+				div(onclick = "location.assign('vk.com/jbcoffee')")#twitter
+				div(onclick = "location.assign('facebook.com/cafeJoeBlack')")#facebook
+				div(onclick = "location.assign('instagram.com/joeblackcoffee/')")#instagram

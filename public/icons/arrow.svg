@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="40 80">
+  <defs>
+    <style>
+      line {
+        fill: none;
+        stroke: #f49a99;
+        stroke-width: 5px;
+      }
+    </style>
+  </defs>
+  <g transform="translate(5 5)">
+    <line id = "arrow" x1="-1.9" y1="41.9" x2="40" y2="0"/>
+    <line id = "arrow" x1="-1.9" y1="38.9" x2="40" y2="80"/>
+  </g>
+</svg>

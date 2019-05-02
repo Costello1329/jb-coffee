@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="265 6577 160 185.254">
+  <defs>
+    <style>
+      .svg-color-filling
+        {
+          fill: #EABBBB;
+        }
+    </style>
+  </defs>
+  <g id="Logo" transform="translate(166.7 6548.6)">
+    <g id="XMLID_1_" transform="translate(98.3 28.4)">
+      <g id="Group_4" data-name="Group 4" transform="translate(0 0)">
+        <path id="Path_4" data-name="Path 4" class="svg-color-filling" d="M258.3,74.714v92.627l-80,46.314-80-46.314V74.714l80-46.314Zm-32.945,73.847V94.074L178.3,66.831,131.245,94.074v54.487L178.3,175.8Z" transform="translate(-98.3 -28.4)"/>
+      </g>
+    </g>
+    <g id="XMLID_3_" transform="translate(135.158 71.081)">
+      <g id="Group_5" data-name="Group 5" transform="translate(0 0)">
+        <path id="Path_5" data-name="Path 5" class="svg-color-filling" d="M388.085,288.373v49.946l-43.142,24.973L301.8,338.319V288.373L344.942,263.4Zm-11.012,45.932V314.272l-26.9-.6V284.159h-3.894v32.256Zm-33.8-17.962-.054-32.129h-3.84l.036,29.84-22.911,13.276.054-11.987h-4.075v18.907Z" transform="translate(-301.8 -263.4)"/>
+      </g>
+    </g>
+    <g id="XMLID_2_" transform="translate(189.674 125.277)">
+      <g id="Group_6" data-name="Group 6" transform="translate(0)">
+        <path id="Path_6" data-name="Path 6" class="svg-color-filling" d="M619.626,562.054v9.553L602.8,561.8Z" transform="translate(-602.8 -561.8)"/>
+      </g>
+    </g>
+  </g>
+</svg>

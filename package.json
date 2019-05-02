@@ -1,0 +1,16 @@
+{
+  "name": "joeblackcafe",
+  "version": "1.0.0",
+  "description": "Joe Black cafe for Fyodor Ivlev. Copyright ©2017 (all rights reserved)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Konstantin Leladze",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3",
+    "jade": "^1.11.0",
+    "serve-favicon": "^2.4.3"
+  }
+}
